@@ -11,7 +11,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 Make a build directory:
 
-	mkdir Andoid (or whatever name you choose)
+	mkdir Android (or whatever name you choose)
 	cd Android (or the name  you chose)
 	
 
@@ -24,6 +24,6 @@ To initialize your local repository using the AOSP manifest, use commands like t
     	( or Download: https://github.com/DroidTh3ory/android_local_killrom/master/local_manifest.xml
 		and place it in ~/Android/.repo/local_manifest.xml (or ~/'name you chose'/.repo)
 
-Then to sync up:
+Then sync up and buckle up (It's the law):
 
     repo sync

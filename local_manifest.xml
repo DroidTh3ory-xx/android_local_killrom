@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://github.com/" name="gh" />
+
+  <remote name="gh" 
+          fetch="git://github.com/" />
 
   <remove-project name="device/lge/mako" />
-  <remove-project name="platform/build" >
+  <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Launcher2" />
@@ -21,11 +23,11 @@
   <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="mr1-staging" />
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="mr1-staging" />
   <project path="packages/apps/Phone" name="DroidTh3ory/android_packages_apps_Phone" remote="gh" revision="mr1-staging" />
-  <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="mr1-staging" />
+  <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="jb-mr1-release" />
   <project path="packages/apps/Trebuchet" name="DroidTh3ory/android_packages_apps_Trebuchet" remote="gh" revision="mr1-staging" />
   <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="jb-mr1-release" />
   <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="jb-mr1-release" />
-
+  
   <!-- local misc -->
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="mr1-staging" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="mr1-staging" />

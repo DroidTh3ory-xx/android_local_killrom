@@ -17,7 +17,7 @@ Make a build directory:
 
 To initialize your local repository using the AOSP manifest, use commands like these:
 
-    repo init -u https://android.googlesource.com/platform/manifest -b android-4.2_r1
+    repo init -u https://android.googlesource.com/platform/manifest -b android-4.2.1_r1
 
     curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/DroidTh3ory/android_local_killrom/master/local_manifest.xml
 

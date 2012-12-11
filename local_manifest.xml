@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="gh" />
+
+  <remove-project name="device/lge/mako" />
+  <remove-project name="platform/build" >
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Launcher2" />
+  <remove-project name="platform/packages/apps/Mms" />
+  <remove-project name="platform/packages/apps/Phone" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+
+  <!-- AOSP replacements -->
+  <project path="build" name="DroidTh3ory/android_build" remote="gh" revision="jb-aosp-4.2_r1">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="jb-mr1-release" />
+  <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="mr1-staging" />
+  <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="mr1-staging" />
+  <project path="packages/apps/Phone" name="DroidTh3ory/android_packages_apps_Phone" remote="gh" revision="mr1-staging" />
+  <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="mr1-staging" />
+  <project path="packages/apps/Trebuchet" name="DroidTh3ory/android_packages_apps_Trebuchet" remote="gh" revision="mr1-staging" />
+  <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="jb-mr1-release" />
+  <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="jb-mr1-release" />
+
+  <!-- local misc -->
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="mr1-staging" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="mr1-staging" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="mr1-staging" />
+
+  <!-- local device/vendor/kernel -->
+  <project path="device/lge/mako" name="DroidTh3ory/android_device_lge_mako" remote="gh" revision="mr1-staging" />
+  <project path="vendor/lge/mako" name="DroidTh3ory/android_vendor_lge_mako" remote="gh" revision="jellybean" />
+  <project path="kernel/lge/mako" name="DroidTh3ory/lge-kernel-mako" remote="gh" revision="jellybean" />
+
+</manifest>

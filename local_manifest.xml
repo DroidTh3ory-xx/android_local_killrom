@@ -22,7 +22,7 @@
   <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="jb-mr1-release" />
   <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="mr1-staging" />
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="mr1-staging" />
-  <project path="packages/apps/Phone" name="DroidTh3ory/android_packages_apps_Phone" remote="gh" revision="mr1-staging" />
+  <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="jb-mr1-release" />
   <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="jb-mr1-release" />
   <project path="packages/apps/Trebuchet" name="DroidTh3ory/android_packages_apps_Trebuchet" remote="gh" revision="mr1-staging" />
   <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="jb-mr1-release" />

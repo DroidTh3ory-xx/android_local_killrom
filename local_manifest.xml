@@ -37,5 +37,6 @@
   <project path="device/lge/mako" name="DroidTh3ory/android_device_lge_mako" remote="gh" revision="mr1-staging" />
   <project path="vendor/lge/mako" name="DroidTh3ory/android_vendor_lge_mako" remote="gh" revision="jellybean" />
   <project path="kernel/lge/mako" name="DroidTh3ory/lge-kernel-mako" remote="gh" revision="jellybean" />
+  <project path="kernel/lge/mako-franco" name="DroidTh3ory/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
 
 </manifest>

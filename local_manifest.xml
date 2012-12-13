@@ -38,6 +38,6 @@
   <project path="vendor/lge/mako" name="DroidTh3ory/android_vendor_lge_mako" remote="gh" revision="jellybean" />
   <project path="kernel/lge/mako" name="DroidTh3ory/lge-kernel-mako" remote="gh" revision="jellybean" />
   <project path="kernel/lge/mako-franco" name="DroidTh3ory/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
-  <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom"
+  <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom" remote="gh" revision="master" />
 revision="master" />
 </manifest>

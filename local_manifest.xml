@@ -24,7 +24,7 @@
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="mr1-staging" />
   <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="jb-mr1-release" />
   <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="jb-mr1-release" />
-  <project path="packages/apps/Trebuchet" name="DroidTh3ory/android_packages_apps_Trebuchet" remote="gh" revision="mr1-staging" />
+  <project path="packages/apps/KILLRHome" name="DroidTh3ory/android_packages_apps_killrhome" remote="gh" revision="master" />
   <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="jb-mr1-release" />
   <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="jb-mr1-release" />
   

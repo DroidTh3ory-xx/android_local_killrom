@@ -29,9 +29,9 @@
   <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="jb-mr1-release" />
   
   <!-- local misc -->
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="mr1-staging" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="mr1-staging" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="mr1-staging" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="cm-10.1" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="cm-10.1" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="cm-10.1" />
 
   <!-- local device/vendor/kernel -->
   <project path="device/lge/mako" name="DroidTh3ory/android_device_lge_mako" remote="gh" revision="mr1-staging" />

@@ -29,7 +29,7 @@
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="killrom" />
   <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="killrom" />
   <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="killrom" />
-  <project path="packages/apps/KILLRHome" name="DroidTh3ory/android_packages_apps_killrhome" remote="gh" revision="killrom" />
+  <project path="packages/apps/killrhome" name="DroidTh3ory/android_packages_apps_killrhome" remote="gh" revision="killrom" />
   <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="killrom" />
   <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="killrom" />
   

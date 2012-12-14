@@ -20,14 +20,14 @@
   <project path="build" name="DroidTh3ory/android_build" remote="gh" revision="jb-aosp-4.2_r1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="jb-mr1-release" />
-  <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="mr1-staging" />
-  <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="mr1-staging" />
-  <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="jb-mr1-release" />
-  <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="jb-mr1-release" />
-  <project path="packages/apps/KILLRHome" name="DroidTh3ory/android_packages_apps_killrhome" remote="gh" revision="master" />
-  <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="jb-mr1-release" />
-  <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="jb-mr1-release" />
+  <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="killrom" />
+  <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="killrom" />
+  <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="killrom" />
+  <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="killrom" />
+  <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="killrom" />
+  <project path="packages/apps/KILLRHome" name="DroidTh3ory/android_packages_apps_killrhome" remote="gh" revision="killrom" />
+  <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="killrom" />
+  <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="killrom" />
   
   <!-- local misc -->
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="cm-10.1" />
@@ -35,12 +35,12 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="cm-10.1" />
 
   <!-- local device/vendor/kernel -->
-  <project path="device/lge/mako" name="DroidTh3ory/android_device_lge_mako" remote="gh" revision="mr1-staging" />
-  <project path="vendor/lge/mako" name="DroidTh3ory/android_vendor_lge_mako" remote="gh" revision="jellybean" />
+  <project path="device/lge/mako" name="DroidTh3ory/android_device_lge_mako" remote="gh" revision="killrom" />
+  <project path="vendor/lge/mako" name="DroidTh3ory/android_vendor_lge_mako" remote="gh" revision="killrom" />
   <project path="kernel/lge/mako" name="DroidTh3ory/lge-kernel-mako" remote="gh" revision="jellybean" />
   <project path="kernel/lge/mako-franco" name="DroidTh3ory/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
-  <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom" remote="gh" revision="master" />
-  <project path="device/asus/grouper" name="DroidTh3ory/android_device_asus_grouper" remote="gh" revision="cm-10.1" />
+  <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom" remote="gh" revision="killrom" />
+  <project path="device/asus/grouper" name="DroidTh3ory/android_device_asus_grouper" remote="gh" revision="killrom" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="gh" revision="cm-10.1" />
   <project path="kernel/asus/grouper-franco" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="android-tegra3-grouper-3.1-jb-mr1" />
   <project name="dhacker29/proprietary_vendor_asus" path="vendor/asus" remote="gh" revision="mr1-staging" />

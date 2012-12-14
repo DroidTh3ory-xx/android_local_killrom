@@ -27,3 +27,10 @@ To initialize your local repository using the AOSP manifest, use commands like t
 Then sync up and buckle up (It's the law):
 
     repo sync
+    
+Then build it:
+
+    . build/envsetup.sh
+    lunch
+    (choose build)
+    make -j8 && make bacon

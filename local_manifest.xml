@@ -19,7 +19,7 @@
   <remove-project name="platform/system/extras" />
 
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" revision="jb-mr1-release" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="jb-mr1-release" />
+  <project path="platform/packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="jb-mr1-release" />
   <!-- AOSP replacements -->
   <project path="build" name="DroidTh3ory/android_build" remote="gh" revision="jb-aosp-4.2_r1">
     <copyfile src="core/root.mk" dest="Makefile" />

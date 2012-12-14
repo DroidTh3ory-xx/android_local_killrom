@@ -21,7 +21,7 @@
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" revision="jb-mr1-release" />
   <project path="platform/packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="jb-mr1-release" />
   <!-- AOSP replacements -->
-  <project path="build" name="DroidTh3ory/android_build" remote="gh" revision="jb-aosp-4.2_r1">
+  <project path="build" name="DroidTh3ory/android_build" remote="gh" revision="killrom">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="killrom" />
@@ -44,6 +44,7 @@
   <project path="kernel/lge/mako" name="DroidTh3ory/lge-kernel-mako" remote="gh" revision="jellybean" />
   <project path="kernel/lge/mako-franco" name="DroidTh3ory/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
   <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom" remote="gh" revision="killrom" />
+  <project path="vendor/google/killrom" name="DroidTh3ory/vendor_google_killrom" remote="gh" revision="master" />
   <project path="device/asus/grouper" name="DroidTh3ory/android_device_asus_grouper" remote="gh" revision="killrom" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="gh" revision="cm-10.1" />
   <project path="kernel/asus/grouper-franco" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="android-tegra3-grouper-3.1-jb-mr1" />

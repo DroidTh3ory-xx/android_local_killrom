@@ -29,13 +29,14 @@
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="killrom" />
   <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="killrom" />
   <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="killrom" />
-  <project path="packages/apps/killrhome" name="DroidTh3ory/android_packages_apps_killrhome" remote="gh" revision="killrom" />
+  <project path="packages/apps/KILLRHome" name="DroidTh3ory/android_packages_apps_killrhome" remote="gh" revision="killrom" />
   <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="killrom" />
   <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="killrom" />
   
   <!-- local misc -->
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="cm-10.1" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="cm-10.1" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="gh" revision="cm-10.1" />
+  <!-- <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="cm-10.1" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="cm-10.1" /> -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="cm-10.1" />
 
   <!-- local device/vendor/kernel -->

@@ -9,6 +9,7 @@
   <remove-project name="device/lge/mako" />
   <remove-project name="device/asus/grouper" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/oprofile" />
   <remove-project name="platform/external/elfutils" />
@@ -38,6 +39,7 @@
   <project path="build" name="DroidTh3ory/android_build" remote="gh" revision="killrom">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="ParanoidAndroid/android_bionic" remote="gh" revision="jellybean" />
   <project path="external/oprofile" name="platform/external/oprofile" remote="linaro" revision="linaro_android_4.2.1" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" revision="master" />

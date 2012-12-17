@@ -4,7 +4,7 @@
   <remote name="gh" 
           fetch="git://github.com/" />
   <remote name="linaro"
-          fetch="android.git.linaro.org" />
+          fetch="git://android.git.linaro.org" />
 
   <remove-project name="device/lge/mako" />
   <remove-project name="device/asus/grouper" />

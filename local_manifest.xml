@@ -65,6 +65,7 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="cm-10.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
+  <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
 
   <!-- local device/vendor/kernel -->
   <project path="device/lge/mako" name="DroidTh3ory/android_device_lge_mako" remote="gh" revision="killrom" />
@@ -83,4 +84,10 @@
   <project name="dhacker29/proprietary_vendor_nvidia" path="vendor/nvidia" remote="gh" revision="mr1-staging" />
   <project name="TheMuppets/proprietary_vendor_nxp" path="vendor/nxp" remote="gh" revision="cm-10.1" />
   <project name="dhacker29/proprietary_vendor_widevine" path="vendor/widevine" remote="gh" revision="mr1-staging" />
+
+  <!-- Themes -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 </manifest>

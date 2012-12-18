@@ -21,6 +21,7 @@
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/CalendarProvider" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />

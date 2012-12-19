@@ -33,4 +33,4 @@ Then build it:
     . build/envsetup.sh
     lunch
     (choose build)
-    make -j8 && make bacon
+    make -j8 bacon

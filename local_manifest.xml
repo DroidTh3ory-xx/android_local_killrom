@@ -27,7 +27,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Mms" />
-  <remove-project name="platform/packages/aps/Music" />
+  <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Provision" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Phone" />

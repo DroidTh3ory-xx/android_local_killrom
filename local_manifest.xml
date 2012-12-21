@@ -105,8 +105,8 @@
   <project path="vendor/google/killrom" name="DroidTh3ory/vendor_google_killrom" remote="gh" revision="killrom" />
 
   <!-- KFireHD projects -->
-  <project path="device/amazon/jem" name="KFire-Android/android_device_amazon_jem" revision="jb-mr1" />
-  <project path="kernel/amazon/jem" name="KFire-Android/kernel_omap_bowser" revision="android-3.0" />
+  <project path="device/amazon/jem" name="KFire-Android/android_device_amazon_jem" remote="gh" revision="jb-mr1" />
+  <project path="kernel/amazon/jem" name="KFire-Android/kernel_omap_bowser" remote="gh" revision="android-3.0" />
 
   <!-- Themes -->
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="cm-10.1" />

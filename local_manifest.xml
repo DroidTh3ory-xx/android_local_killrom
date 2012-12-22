@@ -20,7 +20,6 @@
   <remove-project name="platform/external/quake" />
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -56,7 +55,6 @@
   <project path="external/ppp" name="platform/external/ppp" revision="master" />
   <project path="external/quake" name="platform/external/quake" remote="linaro" revision="linaro_android_4.2.1" />
   <project path="external/v8" name="platform/external/v8" remote="linaro" revision="linaro_android_4.2.1" />
-  <project path="frameworks/av" name="DroidTh3ory/platform_frameworks_av" remote="gh" revision="killrom" />
   <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="killrom" />
   <project path="frameworks/native" name="DroidTh3ory/platform_frameworks_native" remote="gh" revision="killrom" />
   <project path="frameworks/opt/telephony" name="DroidTh3ory/android_frameworks_opt_telephony" remote="gh" revision="killrom" />

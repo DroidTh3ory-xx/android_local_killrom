@@ -7,6 +7,7 @@
           fetch="git://android.git.linaro.org" />
 
   <remove-project name="device/asus/grouper" />
+  <remove project name="kernel/lge/mako-franco" />
   <remove-project name="device/lge/mako" />
   <remove-project name="device/samsung/maguro" />
   <remove-project name="device/samsung/toro" />
@@ -93,6 +94,7 @@
   <project path="kernel/samsung/tuna" name="franciscofranco/Tuna_JB_pre1" remote="gh" revision="fk_4.2" />
   <project path="device/asus/grouper" name="DroidTh3ory/android_device_asus_grouper" remote="gh" revision="killrom" />
   <project name="dhacker29/proprietary_vendor_asus" path="vendor/asus" remote="gh" revision="mr1-staging" />
+  <project path="kernel/mako" name="franciscofranco/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
   <project path="kernel/asus/grouper-franco" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="android-tegra3-grouper-3.1-jb-mr1" />
   <project name="DroidTh3ory/proprietary_vendor_broadcom" path="vendor/broadcom" remote="gh" revision="killrom" />
   <project name="TheMuppets/proprietary_vendor_elan" path="vendor/elan" remote="gh" revision="cm-10.1" />

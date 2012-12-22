@@ -86,7 +86,7 @@
   <!-- local device/vendor/kernel -->
   <project path="device/lge/mako" name="DroidTh3ory/android_device_lge_mako" remote="gh" revision="killrom" />
   <project path="vendor/lge/mako" name="DroidTh3ory/android_vendor_lge_mako" remote="gh" revision="killrom" />
-  <project path="kernel/lge/mako-franco" name="franciscofranco/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
+  <project path="kernel/lge/mako-franco" name="DroidTh3ory/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
   <project path="device/samsung/maguro" name="DroidTh3ory/android_device_samsung_maguro" remote="gh" revision="killrom" />
   <project path="device/samsung/toro" name="DroidTh3ory/android_device_samsung_toro" remote="gh" revision="killrom" />
   <project path="device/samsung/tuna" name="DroidTh3ory/android_device_samsung_tuna" remote="gh" revision="killrom" />

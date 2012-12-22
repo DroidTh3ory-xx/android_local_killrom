@@ -7,7 +7,7 @@
           fetch="git://android.git.linaro.org" />
 
   <remove-project name="device/asus/grouper" />
-  <remove project name="kernel/lge/mako-franco" />
+  <remove project name="device/mako" />
   <remove-project name="device/lge/mako" />
   <remove-project name="device/samsung/maguro" />
   <remove-project name="device/samsung/toro" />

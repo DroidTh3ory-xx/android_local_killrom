@@ -27,10 +27,10 @@
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Exchange" />
-  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Launcher2" />
@@ -40,6 +40,7 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Phone" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/providers/CalendarProvider" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/security" />

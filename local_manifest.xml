@@ -5,6 +5,8 @@
           fetch="git://github.com/" />
   <remote name="linaro"
           fetch="git://android.git.linaro.org" />
+  <remote  name="eos"
+           fetch="git://git.teameos.org/" />
 
   <remove-project name="device/asus/grouper" />
   <remove-project name="device/lge/mako" />
@@ -19,7 +21,7 @@
   <remove-project name="platform/external/ppp" />
   <remove-project name="platform/external/quake" />
   <remove-project name="platform/external/v8" />
-  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/external/sepolicy" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -31,12 +33,11 @@
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Exchange" />
-  <remove-project name="platform/packages/apps/Protips" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/Provision" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Phone" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -44,6 +45,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/vold" />
 
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" revision="jb-mr1-release" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="jb-mr1-release" />
@@ -51,12 +53,13 @@
   <project path="build" name="DroidTh3ory/android_build" remote="gh" revision="killrom">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="DroidTh3ory/android_bionic" remote="gh" revision="jellybean" />
+  <project path="bionic" name="DroidTh3ory/android_bionic" remote="gh" revision="killrom" />
   <project path="external/oprofile" name="platform/external/oprofile" remote="linaro" revision="linaro_android_4.2.1" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" revision="master" />
   <project path="external/quake" name="platform/external/quake" remote="linaro" revision="linaro_android_4.2.1" />
   <project path="external/v8" name="platform/external/v8" remote="linaro" revision="linaro_android_4.2.1" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" revision="master" />
   <project path="frameworks/av" name="DroidTh3ory/platform_frameworks_av" remote="gh" revision="killrom" />
   <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="killrom" />
   <project path="frameworks/native" name="DroidTh3ory/platform_frameworks_native" remote="gh" revision="killrom" />
@@ -73,6 +76,7 @@
   <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="killrom" />
   <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="killrom" />
   <project path="system/security" name="ParanoidAndroid/android_system_security" remote="gh" revision="jellybean" />
+  <project path="system/vold" name="eos/platform/system/vold" remote="eos" revision="jellybean-4.2" />
   
   <!-- local misc -->
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="gh" revision="cm-10.1" />
@@ -93,24 +97,37 @@
   <project path="vendor/samsung" name="DroidTh3ory/proprietary_vendor_samsung" remote="gh" revision="killrom" />
   <project path="kernel/samsung/tuna" name="franciscofranco/Tuna_JB_pre1" remote="gh" revision="fk_4.2" />
   <project path="device/asus/grouper" name="DroidTh3ory/android_device_asus_grouper" remote="gh" revision="killrom" />
-  <project path="vendor/asus" remote="gh" name="dhacker29/proprietary_vendor_asus" revision="mr1-staging" />
+  <project path="vendor/asus" name="dhacker29/proprietary_vendor_asus" remote="gh" revision="mr1-staging" />
   <project path="kernel/asus/grouper-franco" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="android-tegra3-grouper-3.1-jb-mr1" />
-  <project path="vendor/broadcom" remote="gh" name="DroidTh3ory/proprietary_vendor_broadcom" revision="killrom" />
-  <project path="vendor/elan" remote="gh" name="TheMuppets/proprietary_vendor_elan" revision="cm-10.1" />
-  <project path="vendor/invensense" remote="gh" name="DroidTh3ory/proprietary_vendor_invensense" revision="killrom" />
-  <project path="vendor/nvidia" remote="gh" name="TheMuppets/proprietary_vendor_nvidia" revision="cm-10.1" />
-  <project path="vendor/nxp" remote="gh" name="TheMuppets/proprietary_vendor_nxp" revision="cm-10.1" />
-  <project path="vendor/widevine" remote="gh" name="DroidTh3ory/proprietary_vendor_widevine" revision="killrom" />
-  <project path="vendor/imgtec" remote="gh" name="DroidTh3ory/proprietary_vendor_imgtec" revision="killrom" />
+  <project path="vendor/broadcom" name="DroidTh3ory/proprietary_vendor_broadcom" remote="gh" revision="killrom" />
+  <project path="vendor/elan" name="TheMuppets/proprietary_vendor_elan" remote="gh" revision="cm-10.1" />
+  <project path="vendor/invensense" name="DroidTh3ory/proprietary_vendor_invensense" remote="gh" revision="killrom" />
+  <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="gh" revision="cm-10.1" />
+  <project path="vendor/widevine" name="DroidTh3ory/proprietary_vendor_widevine" remote="gh" revision="killrom" />
+  <project path="vendor/imgtec" name="DroidTh3ory/proprietary_vendor_imgtec" remote="gh" revision="killrom" />
   <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom" remote="gh" revision="killrom" />
   <project path="vendor/google/killrom" name="DroidTh3ory/vendor_google_killrom" remote="gh" revision="killrom" />
+  <project path="vendor/nvidia" name="eos/platform/vendor/nvidia" remote="eos" revision="jellybean-4.2" />
 
   <!-- KFireHD projects -->
   <project path="device/amazon/jem" name="KFire-Android/android_device_amazon_jem" remote="gh" revision="jb-mr1" />
   <project path="kernel/amazon/jem" name="KFire-Android/kernel_omap_bowser" remote="gh" revision="android-3.0" />
 
+  <!-- Xoom -->
+  <project path="device/moto/common" name="eos/device/moto/common" remote="eos" revision="jellybean-4.2" />
+  <project path="device/moto/stingray" name="DroidTh3ory/android_device_moto_stingray" remote="gh" revision="killrom" groups="device" />
+  <project path="device/moto/wingray" name="DroidTh3ory/android_device_moto_wingray" remote="gh" revision="killrom" groups="device" />
+  <project path="vendor/moto" name="DroidTh3ory/android_vendor_moto" remote="gh" revision="killrom" />
+  <project path="kernel/moto/wingray" name="eos/kernel/moto/wingray" remote="eos" revision="jellybean-4.2" />
+  <project path="external/iw" name="eos/platform/external/iw" remote="eos" revision="jellybean-4.2" />
+  <project path="external/iwmulticall" name="eos/platform/external/iwmulticall" remote="eos" revision="jellybean-4.2" />
+  <project path="external/libnl" name="eos/platform/external/libnl" remote="eos" revision="jellybean-4.2" />
+  <project path="external/ncurses" name="eos/platform/external/ncurses" remote="eos" revision="jellybean-4.2" />
+  <project path="external/ntfs-3g" name="eos/platform/external/ntfs-3g" remote="eos" revision="jellybean-4.2" />
+  <project path="external/powertop" name="eos/platform/external/powertop" remote="eos" revision="jellybean-4.2" />
+
   <!-- Themes -->
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="cm-10.1" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="DroidTh3ory/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="killrom" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="DroidTh3ory/android_vendor_tmobile_providers_ThemeManager" remote="gh" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="gh" revision="cm-10.1" />

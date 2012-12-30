@@ -15,7 +15,6 @@
   <remove-project name="device/samsung/tuna" />
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
-  <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/oprofile" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/ppp" />
@@ -31,12 +30,12 @@
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Exchange" />
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Phone" />
@@ -47,8 +46,6 @@
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/vold" />
 
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" revision="jb-mr1-release" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="jb-mr1-release" />
   <!-- AOSP replacements -->
   <project path="build" name="DroidTh3ory/android_build" remote="gh" revision="killrom">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -70,6 +67,7 @@
   <project path="packages/apps/PerformanceControl" name="DroidTh3ory/PerformanceControl" remote="gh" revision="killrom" />
   <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="killrom" />
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="killrom" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="killrom" />
   <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="killrom" />
   <project path="packages/apps/KILLRHome" name="DroidTh3ory/android_packages_apps_killrhome" remote="gh" revision="killrom" />

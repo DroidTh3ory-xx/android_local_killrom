@@ -28,6 +28,7 @@
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -66,6 +67,7 @@
   <project path="hardware/qcom/display" name="DroidTh3ory/android_hardware_qcom_display" remote="gh" revision="jellybean" />
   <project path="hardware/ti/omap4xxx" name="DroidTh3ory/platform_hardware_ti_omap4xxx" remote="gh" revision="killrom" />
   <project path="packages/apps/PerformanceControl" name="DroidTh3ory/PerformanceControl" remote="gh" revision="killrom" />
+  <project path="packages/apps/Nfc" name="DroidTh3ory/android_packages_apps_Nfc" remote="gh" revision="killrom" />
   <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="killrom" />
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="killrom" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="gh" revision="cm-10.1" />

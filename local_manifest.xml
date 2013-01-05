@@ -53,6 +53,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="DroidTh3ory/android_bionic" remote="gh" revision="killrom" />
+  <project path="hardware/qcom/audio" name="DroidTh3ory/hardware_qcom_audio" remote="gh" revision="cm-10-1" />
+  <project path="hardware/qcom/display" name="DroidTh3ory/hardware_qcom_display-1" remote="gh" revision="cm-10-1" />
   <project path="external/oprofile" name="platform/external/oprofile" remote="linaro" revision="linaro_android_4.2.1" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" revision="master" />
@@ -117,8 +119,6 @@
   <project path="device/samsung/d2vzw" name="DroidTh3ory/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="DroidTh3ory/android_device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
   <project path="kernel/samsung/d2" name="DroidTh3ory/android_kernel_samsung_d2" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/audio" name="DroidTh3ory/hardware_qcom_audio" remote="gh" revision="cm-10-1" />
-  <project path="hardware/qcom/display" name="DroidTh3ory/hardware_qcom_display-1" remote="gh" revision="cm-10-1" />
   
   <!-- Xoom -->
   <project path="device/moto/common" name="eos/device/moto/common" remote="eos" revision="jellybean-4.2" />

@@ -116,7 +116,7 @@
   <project path="device/samsung/qcom-common" name="DroidTh3ory/device_samsung_qcom-common" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="DroidTh3ory/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="DroidTh3ory/android_device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
-
+  <project path="kernel/samsung/d2" name="DroidTh3ory/android_kernel_samsung_d2" remote="github" revision="cm-10.1" />
   <!-- Xoom -->
   <project path="device/moto/common" name="eos/device/moto/common" remote="eos" revision="jellybean-4.2" />
   <project path="device/moto/stingray" name="DroidTh3ory/android_device_moto_stingray" remote="gh" revision="killrom" groups="device" />

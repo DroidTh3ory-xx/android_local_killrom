@@ -27,7 +27,6 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/sound" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -53,8 +52,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="DroidTh3ory/android_bionic" remote="gh" revision="killrom" />
-  <project path="hardware/qcom/audio" name="DroidTh3ory/hardware_qcom_audio" remote="gh" revision="cm-10-1" />
-  <project path="hardware/qcom/display" name="DroidTh3ory/hardware_qcom_display-1" remote="gh" revision="cm-10-1" />
   <project path="external/oprofile" name="platform/external/oprofile" remote="linaro" revision="linaro_android_4.2.1" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" revision="master" />
@@ -66,6 +63,7 @@
   <project path="frameworks/native" name="DroidTh3ory/platform_frameworks_native" remote="gh" revision="killrom" />
   <project path="frameworks/opt/telephony" name="DroidTh3ory/android_frameworks_opt_telephony" remote="gh" revision="killrom" />
   <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="gh" revision="jellybean" />
+  <project path="hardware/qcom/display" name="DroidTh3ory/android_hardware_qcom_display" remote="gh" revision="jellybean" />
   <project path="hardware/ti/omap4xxx" name="DroidTh3ory/platform_hardware_ti_omap4xxx" remote="gh" revision="killrom" />
   <project path="packages/apps/PerformanceControl" name="DroidTh3ory/PerformanceControl" remote="gh" revision="killrom" />
   <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="killrom" />
@@ -111,14 +109,6 @@
   <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom" remote="gh" revision="killrom" />
   <project path="vendor/google/killrom" name="DroidTh3ory/vendor_google_killrom" remote="gh" revision="killrom" />
   <project path="vendor/nvidia" name="eos/platform/vendor/nvidia" remote="eos" revision="jellybean-4.2" />
-  
-   <!-- d2vzw -->
-  <project path="vendor/samsung/d2vzw" name="DroidTh3ory/vendor_samsung_d2vzw" remote="gh" revision="master" />
-  <project path="device/samsung/d2-common" name="DroidTh3ory/android_device_samsung_d2-common" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/qcom-common" name="DroidTh3ory/device_samsung_qcom-common" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/d2vzw" name="DroidTh3ory/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/msm8960-common" name="DroidTh3ory/android_device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
-  <project path="kernel/samsung/d2" name="DroidTh3ory/android_kernel_samsung_d2" remote="github" revision="cm-10.1" />
   
   <!-- Xoom -->
   <project path="device/moto/common" name="eos/device/moto/common" remote="eos" revision="jellybean-4.2" />

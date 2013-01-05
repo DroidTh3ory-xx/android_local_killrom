@@ -109,6 +109,13 @@
   <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom" remote="gh" revision="killrom" />
   <project path="vendor/google/killrom" name="DroidTh3ory/vendor_google_killrom" remote="gh" revision="killrom" />
   <project path="vendor/nvidia" name="eos/platform/vendor/nvidia" remote="eos" revision="jellybean-4.2" />
+   
+  <!-- d2vzw -->
+  <project path="vendor/samsung/d2vzw" name="DroidTh3ory/vendor_samsung_d2vzw" remote="gh" revision="master" />
+  <project path="device/samsung/d2-common" name="DroidTh3ory/android_device_samsung_d2-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/qcom-common" name="DroidTh3ory/device_samsung_qcom-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2vzw" name="DroidTh3ory/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="DroidTh3ory/android_device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
 
   <!-- Xoom -->
   <project path="device/moto/common" name="eos/device/moto/common" remote="eos" revision="jellybean-4.2" />

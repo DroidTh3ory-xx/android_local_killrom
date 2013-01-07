@@ -64,7 +64,7 @@
   <project path="frameworks/native" name="DroidTh3ory/platform_frameworks_native" remote="gh" revision="killrom" />
   <project path="frameworks/opt/telephony" name="DroidTh3ory/android_frameworks_opt_telephony" remote="gh" revision="killrom" />
   <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="gh" revision="jellybean" />
-  <project path="hardware/qcom/display" name="DroidTh3ory/android_hardware_qcom_display" remote="gh" revision="jellybean" />
+  <project path="hardware/qcom/display" name="DroidTh3ory/android_hardware_qcom_display-1" remote="gh" revision="cm-10.1" />
   <project path="hardware/ti/omap4xxx" name="DroidTh3ory/platform_hardware_ti_omap4xxx" remote="gh" revision="killrom" />
   <project path="packages/apps/PerformanceControl" name="DroidTh3ory/PerformanceControl" remote="gh" revision="killrom" />
   <project path="packages/apps/Nfc" name="DroidTh3ory/packages_apps_Nfc" remote="gh" revision="killrom" />
@@ -112,6 +112,19 @@
   <project path="vendor/google/killrom" name="DroidTh3ory/vendor_google_killrom" remote="gh" revision="killrom" />
   <project path="vendor/nvidia" name="eos/platform/vendor/nvidia" remote="eos" revision="jellybean-4.2" />
   
+  <!-- d2vzw -->
+  <project path="vendor/samsung/d2vzw" name="DroidTh3ory/vendor_samsung_d2vzw" remote="gh" revision="killrom" />
+  <project path="device/samsung/d2-common" name="DroidTh3ory/android_device_samsung_d2-common" remote="gh" revision="killrom" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="gh" revision="cm-10.1" />
+  <project path="device/samsung/d2vzw" name="DroidTh3ory/android_device_samsung_d2vzw" remote="gh" revision="killrom" />
+  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="gh" revision="cm-10.1" />
+  <project path="kernel/samsung/d2" name="DroidTh3ory/android_kernel_samsung_d2" remote="gh" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="gh" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="gh" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="gh" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="cm-10.1" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="cm-10.1" />
+
   <!-- Xoom -->
   <project path="device/moto/common" name="eos/device/moto/common" remote="eos" revision="jellybean-4.2" />
   <project path="device/moto/stingray" name="DroidTh3ory/android_device_moto_stingray" remote="gh" revision="killrom" groups="device" />

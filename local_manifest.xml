@@ -65,7 +65,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="DroidTh3ory/android_bionic" remote="gh" revision="killrom" />
-  <project path="external/oprofile" name="platform/external/oprofile" remote="linaro" revision="linaro_android_4.2.1" />
+  <project path="external/oprofile" name="platform/external/oprofile" revision="master" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" revision="master" />
   <project path="external/quake" name="platform/external/quake" remote="linaro" revision="linaro_android_4.2.1" />

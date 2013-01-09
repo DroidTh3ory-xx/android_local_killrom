@@ -26,7 +26,9 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/rs" />
+  <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Calendar" />
@@ -123,7 +125,6 @@
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="cm-10.1" />
 
   <!-- Xoom -->
   <project path="device/moto/common" name="eos/device/moto/common" remote="eos" revision="jellybean-4.2" />

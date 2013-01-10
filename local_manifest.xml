@@ -19,6 +19,7 @@
   <remove-project name="device/ti/panda" />
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/oprofile" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/ppp" />
@@ -65,6 +66,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="DroidTh3ory/android_bionic" remote="gh" revision="killrom" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="cm-10.1" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="master" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" revision="master" />
@@ -128,7 +130,6 @@
   <project path="vendor/google/killrom" name="DroidTh3ory/vendor_google_killrom" remote="gh" revision="killrom" />
   <project path="vendor/nvidia" name="eos/platform/vendor/nvidia" remote="eos" revision="jellybean-4.2" />
 
-
   <!-- omapzoom projects -->
   <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release" />
 
@@ -165,6 +166,7 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="gh" revision="cm-10.1" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="gh" revision="cm-10.1" />
 
   <!-- Xoom -->
   <project path="device/moto/common" name="eos/device/moto/common" remote="eos" revision="jellybean-4.2" />

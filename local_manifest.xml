@@ -19,7 +19,6 @@
   <remove-project name="device/ti/panda" />
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
-  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/oprofile" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/ppp" />
@@ -66,7 +65,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="DroidTh3ory/android_bionic" remote="gh" revision="killrom" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="cm-10.1" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="master" />
   <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="master" />
   <project path="external/ppp" name="platform/external/ppp" revision="master" />

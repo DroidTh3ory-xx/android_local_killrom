@@ -109,7 +109,7 @@
   <!-- local device/vendor/kernel -->
   <project path="device/lge/mako" name="DroidTh3ory/android_device_lge_mako" remote="gh" revision="killrom" />
   <project path="vendor/lge/mako" name="DroidTh3ory/android_vendor_lge_mako" remote="gh" revision="killrom" />
-  <project path="kernel/lge/mako-franco" name="Droidth3ory/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
+  <project path="kernel/lge/mako-franco" name="DroidTh3ory/mako" remote="gh" revision="killrom" />
   <project path="kernel/lge/motley" name="motley-git/kernel-Nexus4" remote="gh" revision="exp" />
   <project path="kernel/lge/trinity-four" name="DroidTh3ory/kernel_lge_trinity_four" remote="gh" revision="killrom" />
   <project path="kernel/samsung/air" name="edoko/AirKernel_GN_JB" remote="gh" revision="4.2-exp3" />

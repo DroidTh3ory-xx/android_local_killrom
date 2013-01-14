@@ -111,6 +111,7 @@
   <project path="vendor/lge/mako" name="DroidTh3ory/android_vendor_lge_mako" remote="gh" revision="killrom" />
   <project path="kernel/lge/mako-franco" name="franciscofranco/mako" remote="gh" revision="android-msm-mako-3.4-jb-mr1" />
   <project path="kernel/samsung/air" name="edoko/AirKernel_GN_JB" remote="gh" revision="4.2-exp6" />
+  <project path="kernel/samsung/killr-air" name="DroidTh3ory/kernel_samsung_tuna_killr-air" remote="gh" revision="killrom" />
   <project path="device/samsung/maguro" name="DroidTh3ory/android_device_samsung_maguro" remote="gh" revision="killrom" />
   <project path="device/samsung/toro" name="DroidTh3ory/android_device_samsung_toro" remote="gh" revision="killrom" />
   <project path="device/samsung/tuna" name="DroidTh3ory/android_device_samsung_tuna" remote="gh" revision="killrom" />

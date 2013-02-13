@@ -32,14 +32,14 @@
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/qcom/audio" />
+  <!-- <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/hardware/ti/wlan" />
-  <remove-project name="platform/hardware/ti/wpan" />
+  <remove-project name="platform/hardware/ti/wpan" /> -->
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />

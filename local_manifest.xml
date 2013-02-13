@@ -9,6 +9,12 @@
           fetch="git://git.teameos.org/" />
   <remote name="omapzoom"
           fetch="git://git.omapzoom.org/" />
+  <remote  name="cmdev"
+           fetch="git://github.com/loosethisskin/" />
+  <remote  name="ub"
+           fetch="git://github.com/UnicornButter/" />
+  <remote  name="ls"
+           fetch="git://github.com/LiquidSmooth/" />
 
   <!-- <remove-project name="device/asus/grouper" />
   <remove-project name="device/lge/mako" />
@@ -22,7 +28,7 @@
   <remove-project name="platform/external/oprofile" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/ppp" />
-  <remove-project name="platform/external/quake" />
+  <!-- <remove-project name="platform/external/quake" /> -->
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/sepolicy" />
   <remove-project name="platform/frameworks/av" />
@@ -66,16 +72,16 @@
   </project>
   <project path="bionic" name="DroidTh3ory/android_bionic" remote="gh" revision="killrom" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="master" />
-  <project path="external/elfutils" name="platform/external/elfutils" remote="linaro" revision="master" />
+  <project path="external/elfutils" name="android_external_elfutils" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/ppp" name="platform/external/ppp" revision="master" />
-  <project path="external/quake" name="platform/external/quake" remote="linaro" revision="linaro_android_4.2.1" />
-  <project path="external/v8" name="platform/external/v8" remote="linaro" revision="linaro_android_4.2.1" />
+  <!-- <project path="external/quake" name="platform/external/quake" remote="linaro" revision="linaro_android_4.2.1" /> -->
+  <project path="external/v8" name="external_v8" remote="ub" revision="jb-mr1" />
   <project path="external/sepolicy" name="platform/external/sepolicy" revision="master" />
   <project path="frameworks/av" name="DroidTh3ory/platform_frameworks_av" remote="gh" revision="killrom" />
   <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="killrom" />
   <project path="frameworks/native" name="DroidTh3ory/platform_frameworks_native" remote="gh" revision="killrom" />
   <project path="frameworks/opt/telephony" name="DroidTh3ory/android_frameworks_opt_telephony" remote="gh" revision="killrom" />
-  <project path="frameworks/rs" name="ParanoidAndroid/android_frameworks_rs" remote="gh" revision="jellybean" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="ls" revision="jb2" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="gh" revision="mr1.1-staging" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="gh" revision="mr1.1-staging" />
   <project path="hardware/qcom/display" name="DroidTh3ory/android_hardware_qcom_display" remote="gh" revision="killrom" />
@@ -86,7 +92,7 @@
   <project path="packages/apps/Nfc" name="DroidTh3ory/packages_apps_Nfc" remote="gh" revision="killrom" />
   <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="killrom" />
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="killrom" />
-  <project path="packages/apps/DeskClock" name="LiquidSmooth/android_packages_apps_DeskClock" remote="gh" revision="jb2" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="ls" revision="jb2" />
   <project path="packages/apps/LockClock" name="DroidTh3ory/packages_apps_LockClock" remote="gh" revision="killrom" />
   <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="killrom" />
   <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="killrom" />

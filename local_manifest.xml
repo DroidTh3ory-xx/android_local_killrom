@@ -77,15 +77,15 @@
   <!-- <project path="external/quake" name="platform/external/quake" remote="linaro" revision="linaro_android_4.2.1" /> -->
   <project path="external/v8" name="external_v8" remote="ub" revision="jb-mr1" />
   <project path="external/sepolicy" name="platform/external/sepolicy" revision="master" />
-  <project path="frameworks/av" name="DroidTh3ory/platform_frameworks_av" remote="gh" revision="killrom" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="gh" revision="mr1.1-staging" />
   <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="killrom" />
-  <project path="frameworks/native" name="DroidTh3ory/platform_frameworks_native" remote="gh" revision="killrom" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="ls" revision="jb2" />
   <project path="frameworks/opt/telephony" name="DroidTh3ory/android_frameworks_opt_telephony" remote="gh" revision="killrom" />
   <project path="frameworks/rs" name="frameworks_rs" remote="ls" revision="jb2" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="gh" revision="mr1.1-staging" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="gh" revision="mr1.1-staging" />
   <project path="hardware/qcom/display" name="DroidTh3ory/android_hardware_qcom_display" remote="gh" revision="killrom" />
-  <project path="hardware/ti/omap4xxx" name="DroidTh3ory/platform_hardware_ti_omap4xxx" remote="gh" revision="killrom" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/platform_hardware_ti_omap4xxx" remote="gh" revision="mr1.1-staging" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="gh" revision="mr1.1-staging" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="gh" revision="mr1.1-staging" />
   <project path="packages/apps/PerformanceControl" name="DroidTh3ory/PerformanceControl" remote="gh" revision="killrom" />

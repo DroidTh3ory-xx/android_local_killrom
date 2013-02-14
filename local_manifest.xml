@@ -100,7 +100,7 @@
   <project path="packages/inputmethods/LatinIME" name="DroidTh3ory/android_packages_inputmethods_LatinIME" remote="gh" revision="killrom" />
   <project path="system/core" name="DroidTh3ory/platform_system_core" remote="gh" revision="killrom" />
   <project path="system/extras" name="DroidTh3ory/platform_system_extras" remote="gh" revision="killrom" />
-  <project path="system/security" name="ParanoidAndroid/android_system_security" remote="gh" revision="jellybean" />
+  <project path="system/security" name="system_security" remote="ub" revision="jb-mr1" />
   <project path="system/vold" name="eos/platform/system/vold" remote="eos" revision="jellybean-4.2" />
   
   <!-- local misc -->

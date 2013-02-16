@@ -122,7 +122,7 @@
   <project path="device/samsung/toro" name="DroidTh3ory/android_device_samsung_toro" remote="gh" revision="killrom" />
   <project path="device/samsung/tuna" name="DroidTh3ory/android_device_samsung_tuna" remote="gh" revision="killrom" />
   <!-- <project path="vendor/samsung" name="DroidTh3ory/proprietary_vendor_samsung" remote="gh" revision="killrom" /> -->
-  <project path="kernel/samsung/tuna" name="franciscofranco/Tuna_JB_pre1" remote="gh" revision="fk_4.2" />
+  <!-- <project path="kernel/samsung/tuna" name="franciscofranco/Tuna_JB_pre1" remote="gh" revision="fk_4.2" /> -->
   <project path="device/asus/grouper" name="DroidTh3ory/android_device_asus_grouper" remote="gh" revision="killrom" />
   <project path="vendor/asus" name="dhacker29/proprietary_vendor_asus" remote="gh" revision="mr1-staging" />
   <project path="kernel/asus/grouper-franco" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="android-tegra3-grouper-3.1-jb-mr1" />

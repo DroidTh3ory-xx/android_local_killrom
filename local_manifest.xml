@@ -165,6 +165,9 @@
   <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="gh" revision="cm-10.1" />
   <project path="kernel/samsung/lk-d2vzw" name="imoseyon/leanKernel-d2vzw" remote="gh" revision="lk-cm-mr1" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="gh" revision="cm-10.1" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="gh" revision="cm-10.1" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="gh" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="gh" revision="cm-10.1" />

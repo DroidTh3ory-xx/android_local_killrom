@@ -125,14 +125,14 @@
   <!-- <project path="vendor/samsung" name="DroidTh3ory/proprietary_vendor_samsung" remote="gh" revision="killrom" /> -->
   <!-- <project path="kernel/samsung/tuna" name="franciscofranco/Tuna_JB_pre1" remote="gh" revision="fk_4.2" /> -->
   <project path="device/asus/grouper" name="DroidTh3ory/android_device_asus_grouper" remote="gh" revision="killrom" />
-  <project path="vendor/asus" name="dhacker29/proprietary_vendor_asus" remote="gh" revision="mr1-staging" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="gh" revision="cm-10.1" />
   <project path="kernel/asus/grouper-franco" name="franciscofranco/Grouper-3.1.10" remote="gh" revision="android-tegra3-grouper-3.1-jb-mr1" />
-  <project path="vendor/broadcom" name="DroidTh3ory/proprietary_vendor_broadcom" remote="gh" revision="killrom" />
+  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="gh" revision="cm-10.1" />
   <project path="vendor/elan" name="TheMuppets/proprietary_vendor_elan" remote="gh" revision="cm-10.1" />
-  <project path="vendor/invensense" name="DroidTh3ory/proprietary_vendor_invensense" remote="gh" revision="killrom" />
+  <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="gh" revision="cm-10.1" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="gh" revision="cm-10.1" />
-  <project path="vendor/widevine" name="DroidTh3ory/proprietary_vendor_widevine" remote="gh" revision="killrom" />
-  <project path="vendor/imgtec" name="DroidTh3ory/proprietary_vendor_imgtec" remote="gh" revision="killrom" />
+  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="gh" revision="cm-10.1" />
+  <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" remote="gh" revision="cm-10.1" />
   <project path="vendor/nos/killrom" name="DroidTh3ory/vendor_nos_killrom" remote="gh" revision="killrom" />
   <project path="vendor/google/killrom" name="DroidTh3ory/vendor_google_killrom" remote="gh" revision="killrom" />
   <project path="vendor/nvidia" name="eos/platform/vendor/nvidia" remote="eos" revision="jellybean-4.2" />

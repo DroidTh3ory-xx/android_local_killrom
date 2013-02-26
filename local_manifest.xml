@@ -79,9 +79,9 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" revision="master" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="gh" revision="cm-10.1" />
   <project path="frameworks/base" name="DroidTh3ory/platform_frameworks_base" remote="gh" revision="killrom" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="ls" revision="jb2" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/opt/telephony" name="DroidTh3ory/android_frameworks_opt_telephony" remote="gh" revision="killrom" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="ls" revision="jb2" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="gh" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="gh" revision="cm-10.1" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="gh" revision="cm-10.1" />
@@ -91,7 +91,7 @@
   <!-- <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="gh" revision="cm-10.1" /> -->
   <project path="packages/apps/Contacts" name="DroidTh3ory/android_packages_apps_Contacts" remote="gh" revision="killrom" />
   <project path="packages/apps/Mms" name="DroidTh3ory/android_packages_apps_Mms" remote="gh" revision="killrom" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="ls" revision="jb2" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/LockClock" name="DroidTh3ory/packages_apps_LockClock" remote="gh" revision="killrom" />
   <project path="packages/apps/Phone" name="DroidTh3ory/platform_packages_apps_phone" remote="gh" revision="killrom" />
   <project path="packages/apps/Settings" name="DroidTh3ory/platform_packages_apps_settings" remote="gh" revision="killrom" />

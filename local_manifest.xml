@@ -16,13 +16,13 @@
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
 
-  <!-- <remove-project name="device/asus/grouper" />
+  <remove-project name="device/asus/grouper" />
   <remove-project name="device/lge/mako" />
   <remove-project name="device/samsung/maguro" />
   <remove-project name="device/samsung/toro" />
   <remove-project name="device/samsung/toroplus" />
   <remove-project name="device/samsung/tuna" />
-  <remove-project name="device/ti/panda" /> -->
+  <remove-project name="device/ti/panda" />
   <remove-project name="platform/build" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/external/oprofile" />
@@ -38,7 +38,7 @@
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <!-- <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
@@ -46,7 +46,7 @@
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/hardware/ti/wlan" />
   <remove-project name="platform/hardware/ti/wpan" />
-  <remove-project name="platform/packages/apps/Nfc" /> -->
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
